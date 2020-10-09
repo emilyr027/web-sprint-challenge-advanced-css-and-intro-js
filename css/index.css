@@ -134,3 +134,84 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/*Media Queries*/
+/*phone*/
+@media(max-width:500px){
+    nav{
+        width:35%;
+    }
+    a {	
+        text-decoration: none;	
+        color: black;
+        font-size:1.6rem;	
+        letter-spacing:6%;
+    }	
+    nav span{
+        border-left:1px solid #626262;
+    }
+    .title-container div {	
+        width:100%;
+        height:43vh;
+    }	
+    .title-container hr{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+    }
+    button{
+        padding:1% 4%;
+        font-size: 1.3rem;
+        border-radius:2px;
+        border:1px solid #626262;
+        box-shadow: 1px 1px .5px #626262;
+        transition: 2s;
+    }
+    h1{
+        font-size:4rem;
+        padding-bottom:1%;
+        line-height:125%;
+    }
+    .artists-container{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+        width:50%;
+        margin:0 auto;
+        align-items:center;
+        margin-top:3%
+    }
+
+    .artist{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        line-height:125%;
+    }
+    .artist img{
+        width:100%;
+        width:28vh;
+        height:20vh;
+        justify-content:center;
+        align-items:center;
+        margin-bottom:2%
+
+    }
+    .artist a{
+        font-size:1.7rem;
+        padding:2%
+        margin-top:4%;
+    }
+    .bio{
+        display:flex;
+        font-size:1.0rem;
+        line-height:100%;
+        width:38vh;
+        text-align: center;
+        align-items:center;
+    }
+}
